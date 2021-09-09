@@ -11,19 +11,19 @@ C:\Program Files\Unity\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/temp/AI Prototypes 2021/AI Prototype 2 - Pathfinding Bomberman
+C:/temp/AI Prototypes 2021/AI Prototype 2 - Pathfinding Bomberman 2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58548
-Successfully changed project path to: C:/temp/AI Prototypes 2021/AI Prototype 2 - Pathfinding Bomberman
-C:/temp/AI Prototypes 2021/AI Prototype 2 - Pathfinding Bomberman
+61435
+Successfully changed project path to: C:/temp/AI Prototypes 2021/AI Prototype 2 - Pathfinding Bomberman 2
+C:/temp/AI Prototypes 2021/AI Prototype 2 - Pathfinding Bomberman 2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 22.03 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 24.65 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/temp/AI Prototypes 2021/AI Prototype 2 - Pathfinding Bomberman/Assets
+[Subsystems] Discovering subsystems at path C:/temp/AI Prototypes 2021/AI Prototype 2 - Pathfinding Bomberman 2/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,84 +35,708 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56092
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001283 seconds.
+Registered in 0.001439 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 22.09 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 22.91 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.346 seconds
+- Completed reload, in  2.477 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000642 seconds.
+Registered in 0.000648 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 22.18 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 25.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.549 seconds
+- Completed reload, in  0.599 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.5 MB.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
 System memory in use after: 84.5 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2248.
-Total: 1.836800 ms (FindLiveObjects: 0.225100 ms CreateObjectMapping: 0.038800 ms MarkObjects: 1.437400 ms  DeleteObjects: 0.134700 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2249.
+Total: 1.871200 ms (FindLiveObjects: 0.144400 ms CreateObjectMapping: 0.041700 ms MarkObjects: 1.550500 ms  DeleteObjects: 0.133700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42baae205c97e3337697759514652acd') in 0.003512 seconds
-  Import took 0.005437 seconds .
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ea27b31bd0afaf9a80ef7312d8ad8d') in 0.010767 seconds
+  Import took 0.012827 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(6a74db0601a8dd24ba5775f06be3b2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(6a74db0601a8dd24ba5775f06be3b2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17cba0178774c030796728b3fe0c10f9') in 0.001387 seconds
-  Import took 0.002922 seconds .
+  Time since last request: 27.634485 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8dd90105ad0673a7e1d5cc896c3f0c7') in 0.002252 seconds
+  Import took 0.004871 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000280 seconds.
+  Time since last request: 2.511741 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed61b9ec00af4b068b93d36380d6435d') in 0.002192 seconds
+  Import took 0.004653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.214731 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c8ae65166411df3caa2767bbd8193e') in 0.001924 seconds
+  Import took 0.004307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.905011 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91773cde9b686212ae68c531cc4639a2') in 0.002266 seconds
+  Import took 0.004851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.866622 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca02e81b1ef6dffbc64f55a58161aafe') in 0.002399 seconds
+  Import took 0.005638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.495546 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8861198c6a76ef582fbeb3f4cac6ca5') in 0.002126 seconds
+  Import took 0.005065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.270614 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745c60a6fadf2d26105d58d4d7df2d8d') in 0.002308 seconds
+  Import took 0.004844 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000750 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.533 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.6 MB.
+System memory in use after: 84.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2253.
+Total: 1.557400 ms (FindLiveObjects: 0.146100 ms CreateObjectMapping: 0.042700 ms MarkObjects: 1.244300 ms  DeleteObjects: 0.123600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.785957 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Baron Bombano.png
+  artifactKey: Guid(9742d552a53678e4ba26f6e7abe640fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Baron Bombano.png using Guid(9742d552a53678e4ba26f6e7abe640fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145ce3d36fe683d9d10d1bbce4af4076') in 0.061444 seconds
+  Import took 0.064012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png
+  artifactKey: Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png using Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33499351117569111f458ded5b74f004') in 0.013585 seconds
+  Import took 0.015760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Items.png
+  artifactKey: Guid(86ab7d111cdae8144bc67b7021019ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Items.png using Guid(86ab7d111cdae8144bc67b7021019ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876a80eff78f43e68b381789037ba9da') in 0.009840 seconds
+  Import took 0.011973 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Bomberman.png
+  artifactKey: Guid(dada306d4fd56e8468a01e579d0a68f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Bomberman.png using Guid(dada306d4fd56e8468a01e579d0a68f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d171e491f7bf0c1aa74cfffb351902') in 0.014953 seconds
+  Import took 0.017180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Battle Mode Mugshots.png
+  artifactKey: Guid(4d39db8b0c748674cafc819589e98ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Battle Mode Mugshots.png using Guid(4d39db8b0c748674cafc819589e98ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '911169a89fd1997f0533922288275297') in 0.009290 seconds
+  Import took 0.012185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.220728 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png
+  artifactKey: Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png using Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe7d6e411f6b277e020d16724f8154f') in 0.008385 seconds
+  Import took 0.011142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002912 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png
+  artifactKey: Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png using Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe7d6e411f6b277e020d16724f8154f') in 0.006781 seconds
+  Import took 0.009161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.554496 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png
+  artifactKey: Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png using Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766a3cb41e10b0d9bd4a2dd29148f4ea') in 0.022435 seconds
+  Import took 0.024939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.567446 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Items.png
+  artifactKey: Guid(86ab7d111cdae8144bc67b7021019ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Items.png using Guid(86ab7d111cdae8144bc67b7021019ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be822f1770380f8d2935d591fb8e5bef') in 0.006435 seconds
+  Import took 0.009038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005504 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Items.png
+  artifactKey: Guid(86ab7d111cdae8144bc67b7021019ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Items.png using Guid(86ab7d111cdae8144bc67b7021019ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be822f1770380f8d2935d591fb8e5bef') in 0.007145 seconds
+  Import took 0.009760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.693465 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Items.png
+  artifactKey: Guid(86ab7d111cdae8144bc67b7021019ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Items.png using Guid(86ab7d111cdae8144bc67b7021019ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5132c527f54c00143b100407cbe7ad') in 0.054296 seconds
+  Import took 0.056635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.357591 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Battle Mode Mugshots.png
+  artifactKey: Guid(4d39db8b0c748674cafc819589e98ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Battle Mode Mugshots.png using Guid(4d39db8b0c748674cafc819589e98ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd50da05abe9e4a043170eb1550820a') in 0.006516 seconds
+  Import took 0.008863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003535 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Battle Mode Mugshots.png
+  artifactKey: Guid(4d39db8b0c748674cafc819589e98ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Battle Mode Mugshots.png using Guid(4d39db8b0c748674cafc819589e98ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd50da05abe9e4a043170eb1550820a') in 0.011984 seconds
+  Import took 0.014388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.271271 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Battle Mode Mugshots.png
+  artifactKey: Guid(4d39db8b0c748674cafc819589e98ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Battle Mode Mugshots.png using Guid(4d39db8b0c748674cafc819589e98ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4375c65aa53ed3f1524f08857989ec8b') in 0.019256 seconds
+  Import took 0.021698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.532571 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Baron Bombano.png
+  artifactKey: Guid(9742d552a53678e4ba26f6e7abe640fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Baron Bombano.png using Guid(9742d552a53678e4ba26f6e7abe640fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2dbecdeed28cc86739bf6e00fb9fc3a') in 0.025254 seconds
+  Import took 0.027473 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000849 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.557 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2277.
+Total: 1.541300 ms (FindLiveObjects: 0.130000 ms CreateObjectMapping: 0.037000 ms MarkObjects: 1.222200 ms  DeleteObjects: 0.151600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 253.835850 seconds.
+  path: Assets/Scripts/EnemyAI.cs
+  artifactKey: Guid(6661c6c954976bc48b92b817f200537a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyAI.cs using Guid(6661c6c954976bc48b92b817f200537a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f84c4ec2a37858351bc2e01d615699') in 0.005031 seconds
+  Import took 0.008099 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000664 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.563 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2282.
+Total: 1.759500 ms (FindLiveObjects: 0.185700 ms CreateObjectMapping: 0.048200 ms MarkObjects: 1.392800 ms  DeleteObjects: 0.131600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000786 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.538 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.8 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2286.
+Total: 1.780700 ms (FindLiveObjects: 0.179400 ms CreateObjectMapping: 0.062900 ms MarkObjects: 1.431800 ms  DeleteObjects: 0.105900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.893443 seconds.
+  path: Assets/Scripts/EnemyAI.cs
+  artifactKey: Guid(6661c6c954976bc48b92b817f200537a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyAI.cs using Guid(6661c6c954976bc48b92b817f200537a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eea910a390bfc482e3635100f46acc9') in 0.003831 seconds
+  Import took 0.005869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.203265 seconds.
   path: Assets/Scenes/SampleScene.unity
   artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4277dab6a28e8e1d23739f05f438b540') in 0.007326 seconds
-  Import took 0.009098 seconds .
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26ac7828b4834ebad238e5c414ba356') in 0.007092 seconds
+  Import took 0.009531 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.461945 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(0ec8a585a818bde41baa2db8ca8dee1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(0ec8a585a818bde41baa2db8ca8dee1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657920b78d413482b45b4014cd0558a0') in 0.002975 seconds
-  Import took 0.005238 seconds .
+  Time since last request: 3.848394 seconds.
+  path: Assets/Scenes/GameScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GameScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408bd01b946881e8ef48134ac18aab85') in 0.002628 seconds
+  Import took 0.005125 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.529242 seconds.
-  path: Assets/Sprites
-  artifactKey: Guid(56f8f3409c4086b49b3326b58b50627c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites using Guid(56f8f3409c4086b49b3326b58b50627c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93573cc08315e4e9e92c2f0387eb8b22') in 0.002085 seconds
-  Import took 0.004363 seconds .
+  Time since last request: 516.592484 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png
+  artifactKey: Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png using Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4179b3ee80028aa7a1adf22d975be894') in 0.042561 seconds
+  Import took 0.045789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.077519 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png
+  artifactKey: Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png using Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abe9bd841748f7733d286fad37cfd70a') in 0.018761 seconds
+  Import took 0.021104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.458510 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png
+  artifactKey: Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png using Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91462fd09cfd83ca40b88ced66a8028') in 0.012520 seconds
+  Import took 0.015021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png
+  artifactKey: Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png using Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e91462fd09cfd83ca40b88ced66a8028') in 0.009534 seconds
+  Import took 0.012291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.155517 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png
+  artifactKey: Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png using Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f0e0937868971d333cc90a0d05ea83') in 0.016369 seconds
+  Import took 0.018629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 313.528280 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png
+  artifactKey: Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png using Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dce0f771d8d0f75e83d9dbb7255e653') in 0.028562 seconds
+  Import took 0.031469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 321.082346 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png
+  artifactKey: Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Battle Stage 01.png using Guid(193e8c0b7dd93b64a9e75790824ea9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab01d9daff851e66dda47ff4be54e55') in 0.030140 seconds
+  Import took 0.033185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 671.731216 seconds.
+  path: Assets/Images/SNES - Super Bomberman 4 JPN - Bombs & Explosions.png
+  artifactKey: Guid(2277f94a986b285498142b73807dbb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 4 JPN - Bombs & Explosions.png using Guid(2277f94a986b285498142b73807dbb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80543a6c02aa8619dfe9669e5e95ecd2') in 0.018033 seconds
+  Import took 0.021074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Plunder Bomber.png
+  artifactKey: Guid(2d0c6fb7213ec8c4299a36d1647e849a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Plunder Bomber.png using Guid(2d0c6fb7213ec8c4299a36d1647e849a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f170d1c453f917c7b9a21d3c000694') in 0.019822 seconds
+  Import took 0.022174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.461494 seconds.
+  path: Assets/Images/SNES - Super Bomberman 4 JPN - Bombs & Explosions.png
+  artifactKey: Guid(2277f94a986b285498142b73807dbb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 4 JPN - Bombs & Explosions.png using Guid(2277f94a986b285498142b73807dbb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32599be853adb7c4065a93e5757b540') in 0.007855 seconds
+  Import took 0.010264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003957 seconds.
+  path: Assets/Images/SNES - Super Bomberman 4 JPN - Bombs & Explosions.png
+  artifactKey: Guid(2277f94a986b285498142b73807dbb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 4 JPN - Bombs & Explosions.png using Guid(2277f94a986b285498142b73807dbb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32599be853adb7c4065a93e5757b540') in 0.010408 seconds
+  Import took 0.012832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 135.111325 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Plunder Bomber.png
+  artifactKey: Guid(2d0c6fb7213ec8c4299a36d1647e849a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Plunder Bomber.png using Guid(2d0c6fb7213ec8c4299a36d1647e849a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26390f7d39242b407aa9094b3789a7a6') in 0.008814 seconds
+  Import took 0.011923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002531 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Plunder Bomber.png
+  artifactKey: Guid(2d0c6fb7213ec8c4299a36d1647e849a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Plunder Bomber.png using Guid(2d0c6fb7213ec8c4299a36d1647e849a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26390f7d39242b407aa9094b3789a7a6') in 0.008527 seconds
+  Import took 0.010975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.273862 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Plunder Bomber.png
+  artifactKey: Guid(2d0c6fb7213ec8c4299a36d1647e849a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Plunder Bomber.png using Guid(2d0c6fb7213ec8c4299a36d1647e849a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba8648e1b179720d55c75f95239b1c1') in 0.032337 seconds
+  Import took 0.034691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.187098 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Plunder Bomber.png
+  artifactKey: Guid(2d0c6fb7213ec8c4299a36d1647e849a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Plunder Bomber.png using Guid(2d0c6fb7213ec8c4299a36d1647e849a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd0e18260104a68938742d1e2593757') in 0.028435 seconds
+  Import took 0.030750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.872536 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Battle Mode Mugshots.png
+  artifactKey: Guid(4d39db8b0c748674cafc819589e98ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Battle Mode Mugshots.png using Guid(4d39db8b0c748674cafc819589e98ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7353f1655a053ba81239e6fc625d3b4') in 0.009841 seconds
+  Import took 0.012438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001580 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Battle Mode Mugshots.png
+  artifactKey: Guid(4d39db8b0c748674cafc819589e98ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Battle Mode Mugshots.png using Guid(4d39db8b0c748674cafc819589e98ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7353f1655a053ba81239e6fc625d3b4') in 0.014570 seconds
+  Import took 0.017067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.968047 seconds.
+  path: Assets/Images/SNES - Super Bomberman 5 JPN - Items.png
+  artifactKey: Guid(86ab7d111cdae8144bc67b7021019ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Items.png using Guid(86ab7d111cdae8144bc67b7021019ded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0662d3d96562ca699209c0d770d3eaad') in 0.051326 seconds
+  Import took 0.053777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 181.443863 seconds.
+  path: Assets/Images/SNES - Super Bomberman 4 JPN - Bombs & Explosions.png
+  artifactKey: Guid(2277f94a986b285498142b73807dbb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 4 JPN - Bombs & Explosions.png using Guid(2277f94a986b285498142b73807dbb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5230786cd4626696a4d03b60737e9e0') in 0.008157 seconds
+  Import took 0.010999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001199 seconds.
+  path: Assets/Images/SNES - Super Bomberman 4 JPN - Bombs & Explosions.png
+  artifactKey: Guid(2277f94a986b285498142b73807dbb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/SNES - Super Bomberman 4 JPN - Bombs & Explosions.png using Guid(2277f94a986b285498142b73807dbb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5230786cd4626696a4d03b60737e9e0') in 0.007974 seconds
+  Import took 0.010383 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000888 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.575 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.8 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2301.
+Total: 1.597000 ms (FindLiveObjects: 0.176900 ms CreateObjectMapping: 0.043000 ms MarkObjects: 1.257200 ms  DeleteObjects: 0.119100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000720 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.538 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.8 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2305.
+Total: 1.522900 ms (FindLiveObjects: 0.172700 ms CreateObjectMapping: 0.046100 ms MarkObjects: 1.191700 ms  DeleteObjects: 0.111000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000687 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.529 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.8 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2309.
+Total: 1.531200 ms (FindLiveObjects: 0.162100 ms CreateObjectMapping: 0.048200 ms MarkObjects: 1.212400 ms  DeleteObjects: 0.107800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000590 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.577 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.8 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2313.
+Total: 1.770300 ms (FindLiveObjects: 0.327000 ms CreateObjectMapping: 0.091100 ms MarkObjects: 1.255800 ms  DeleteObjects: 0.095300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000697 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.534 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2317.
+Total: 1.617100 ms (FindLiveObjects: 0.159000 ms CreateObjectMapping: 0.036400 ms MarkObjects: 1.296000 ms  DeleteObjects: 0.125100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000678 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.583 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2321.
+Total: 1.481600 ms (FindLiveObjects: 0.143000 ms CreateObjectMapping: 0.036300 ms MarkObjects: 1.198500 ms  DeleteObjects: 0.103000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000628 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.564 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2325.
+Total: 1.805000 ms (FindLiveObjects: 0.128200 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.527800 ms  DeleteObjects: 0.113500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000821 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.530 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1803 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2329.
+Total: 1.623600 ms (FindLiveObjects: 0.149200 ms CreateObjectMapping: 0.040300 ms MarkObjects: 1.319400 ms  DeleteObjects: 0.113700 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
