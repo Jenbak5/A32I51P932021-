@@ -6,20 +6,20 @@ public class PlayerController : MonoBehaviour
 {
     private float moveSpeed;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     void Move()
     {
 
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetButton("Horizontal")) 
+        {
+
+        }
+        if (Input.GetButton("Vertical"))
+        {
+            float translation = Input.GetAxis("Vertical") * moveSpeed;
+        }
     }
 }
