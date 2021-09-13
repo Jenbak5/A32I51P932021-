@@ -5,7 +5,7 @@ using UnityEngine;
 public class BombermanControls : MonoBehaviour
 {
     [SerializeField] private float moveSpeed;
-    private Rigidbody2D rigidbody;
+    public Rigidbody2D rigidbody;
 
     public GameObject bombPrefab = null;
 
@@ -15,44 +15,15 @@ public class BombermanControls : MonoBehaviour
         // moveSpeed = moveSpeed * 0.0025f;
     }
 
-    public void PlaceBomb()
+    private protected void PlaceBomb()
     {
         // Instantiate new bomb at the center of current tile, (the closest one if overlapping 2+ tiles)
         Instantiate(bombPrefab, transform.position, transform.rotation);
     }
 
-    public void Move(Vector2 direction)
+    private protected void Move(Vector2 direction)
     {
-        rigidbody.velocity = direction * moveSpeed;
-        // transform.Translate(direction * moveSpeed);
-    }
-
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            Move(Vector2.up);
-        }
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            Move(Vector2.left);
-        }
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            Move(Vector2.down);
-        }
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            Move(Vector2.right);
-        }
-        else if (!Input.anyKey)
-        {
-            rigidbody.velocity = Vector2.zero;
-        }
-
-        if (Input.GetKey(KeyCode.Space))
-        {
-            PlaceBomb();
-        }
+        //rigidbody.velocity = direction * moveSpeed;
+        transform.Translate(direction * moveSpeed);
     }
 }

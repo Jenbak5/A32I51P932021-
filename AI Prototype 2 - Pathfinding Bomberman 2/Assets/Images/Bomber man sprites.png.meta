@@ -1,0 +1,3132 @@
+fileFormatVersion: 2
+guid: afa74b7236de25340bf7a3d9bef044ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2213342457798300657
+    second: Bomber man sprites_0
+  - first:
+      213: -2524632103211533221
+    second: Bomber man sprites_1
+  - first:
+      213: -1147411749790968105
+    second: Bomber man sprites_2
+  - first:
+      213: -8656115651275169938
+    second: Bomber man sprites_3
+  - first:
+      213: -2784092697496906682
+    second: Bomber man sprites_4
+  - first:
+      213: 7226185834368300772
+    second: Bomber man sprites_5
+  - first:
+      213: 2956476860861052816
+    second: Bomber man sprites_6
+  - first:
+      213: 1324475556804902329
+    second: Bomber man sprites_7
+  - first:
+      213: -5792921287730391173
+    second: Bomber man sprites_8
+  - first:
+      213: -2669598375581616699
+    second: Bomber man sprites_9
+  - first:
+      213: 7971926395902031798
+    second: Bomber man sprites_10
+  - first:
+      213: -9108797670552969022
+    second: Bomber man sprites_11
+  - first:
+      213: 8678453742515635605
+    second: Bomber man sprites_12
+  - first:
+      213: 9051366213657824677
+    second: Bomber man sprites_13
+  - first:
+      213: 5545048873141917492
+    second: Bomber man sprites_14
+  - first:
+      213: -5611575040361990375
+    second: Bomber man sprites_15
+  - first:
+      213: 6019677789661488567
+    second: Bomber man sprites_16
+  - first:
+      213: -2728058112278957931
+    second: Bomber man sprites_17
+  - first:
+      213: -3160761354989115038
+    second: Bomber man sprites_18
+  - first:
+      213: -5370498734143880248
+    second: Bomber man sprites_19
+  - first:
+      213: 8087783417886087344
+    second: Bomber man sprites_21
+  - first:
+      213: -7621074094273566025
+    second: Bomber man sprites_22
+  - first:
+      213: -6194175815927656341
+    second: Bomber man sprites_23
+  - first:
+      213: -6364025233206966913
+    second: Bomber man sprites_24
+  - first:
+      213: 2777184099467855259
+    second: Bomber man sprites_25
+  - first:
+      213: -5988193629818947452
+    second: Bomber man sprites_26
+  - first:
+      213: -9159992129574396264
+    second: Bomber man sprites_27
+  - first:
+      213: -8303697403676151196
+    second: Bomber man sprites_28
+  - first:
+      213: 6606938188159403558
+    second: Bomber man sprites_29
+  - first:
+      213: -8232936238119533811
+    second: Bomber man sprites_30
+  - first:
+      213: 5487663074543886051
+    second: Bomber man sprites_31
+  - first:
+      213: -2820306611839913034
+    second: Bomber man sprites_32
+  - first:
+      213: 7919196597164811195
+    second: Bomber man sprites_33
+  - first:
+      213: -2202634660245265650
+    second: Bomber man sprites_34
+  - first:
+      213: -279489584623482845
+    second: Bomber man sprites_35
+  - first:
+      213: -8313651219639294814
+    second: Bomber man sprites_36
+  - first:
+      213: -3523714721052347257
+    second: Bomber man sprites_37
+  - first:
+      213: 54590572303474775
+    second: Bomber man sprites_38
+  - first:
+      213: -4747653731880385681
+    second: Bomber man sprites_39
+  - first:
+      213: -126468105325133763
+    second: Bomber man sprites_40
+  - first:
+      213: -6448029804379895640
+    second: Bomber man sprites_41
+  - first:
+      213: 2569660004745579
+    second: Bomber man sprites_42
+  - first:
+      213: 7042170323787919174
+    second: Bomber man sprites_43
+  - first:
+      213: 985634486415652375
+    second: Bomber man sprites_46
+  - first:
+      213: -1836084841147760044
+    second: Bomber man sprites_47
+  - first:
+      213: -7275008140830376661
+    second: Bomber man sprites_48
+  - first:
+      213: 5802587668658703861
+    second: Bomber man sprites_49
+  - first:
+      213: -2269787871155868923
+    second: Bomber man sprites_50
+  - first:
+      213: -3337202057605751439
+    second: Bomber man sprites_51
+  - first:
+      213: 3696318903965588028
+    second: Bomber man sprites_52
+  - first:
+      213: -112897985201393425
+    second: Bomber man sprites_53
+  - first:
+      213: 3654942468333524614
+    second: Bomber man sprites_54
+  - first:
+      213: -8313319380385340818
+    second: Bomber man sprites_55
+  - first:
+      213: -2950431479076573960
+    second: Bomber man sprites_56
+  - first:
+      213: -1825333273517114901
+    second: Bomber man sprites_57
+  - first:
+      213: 6156265754253090804
+    second: Bomber man sprites_58
+  - first:
+      213: -7496040683110738451
+    second: Bomber man sprites_59
+  - first:
+      213: 4501816007482209547
+    second: Bomber man sprites_60
+  - first:
+      213: 1454155805809530404
+    second: Bomber man sprites_61
+  - first:
+      213: -5488552052413770295
+    second: Bomber man sprites_62
+  - first:
+      213: -1862159803539071486
+    second: Bomber man sprites_63
+  - first:
+      213: 6926409913994925254
+    second: Bomber man sprites_64
+  - first:
+      213: -8782405330431163600
+    second: Bomber man sprites_65
+  - first:
+      213: 45450143944641009
+    second: Bomber man sprites_66
+  - first:
+      213: 7190025444318358958
+    second: Bomber man sprites_67
+  - first:
+      213: 149743204693337542
+    second: Bomber man sprites_68
+  - first:
+      213: -900713377401550481
+    second: Bomber man sprites_71
+  - first:
+      213: 2888616150052041761
+    second: Bomber man sprites_72
+  - first:
+      213: -433535241657959992
+    second: Bomber man sprites_73
+  - first:
+      213: -6280645882914688733
+    second: Bomber man sprites_74
+  - first:
+      213: 3137523924625166965
+    second: Bomber man sprites_75
+  - first:
+      213: -2081082061980255149
+    second: Bomber man sprites_76
+  - first:
+      213: 3684835033509006751
+    second: Bomber man sprites_77
+  - first:
+      213: -5824879171023857317
+    second: Bomber man sprites_78
+  - first:
+      213: 7037037729174018244
+    second: Bomber man sprites_79
+  - first:
+      213: 1648039087911676921
+    second: Bomber man sprites_80
+  - first:
+      213: -6106377057791485217
+    second: Bomber man sprites_81
+  - first:
+      213: -2333513291862231877
+    second: Bomber man sprites_82
+  - first:
+      213: -5172803721259571664
+    second: Bomber man sprites_83
+  - first:
+      213: 8982372721526376525
+    second: Bomber man sprites_84
+  - first:
+      213: 3817405842272014336
+    second: Bomber man sprites_85
+  - first:
+      213: 2395443163668120678
+    second: Bomber man sprites_86
+  - first:
+      213: -1712241802631828278
+    second: Bomber man sprites_87
+  - first:
+      213: -6465248244624150651
+    second: Bomber man sprites_88
+  - first:
+      213: 9049342631267985277
+    second: Bomber man sprites_92
+  - first:
+      213: 9195389847260751266
+    second: Bomber man sprites_93
+  - first:
+      213: -6946545980358172734
+    second: Bomber man sprites_94
+  - first:
+      213: 7690655019861481913
+    second: Bomber man sprites_95
+  - first:
+      213: 3551224601650574283
+    second: Bomber man sprites_96
+  - first:
+      213: -2283408438775339646
+    second: Bomber man sprites_97
+  - first:
+      213: 6372519652123405328
+    second: Bomber man sprites_98
+  - first:
+      213: -6265936579524773410
+    second: Bomber man sprites_99
+  - first:
+      213: 1353062661931495609
+    second: Bomber man sprites_100
+  - first:
+      213: -8379873096076077437
+    second: Bomber man sprites_101
+  - first:
+      213: 8942767464165252857
+    second: Bomber man sprites_102
+  - first:
+      213: -826771812231516405
+    second: Bomber man sprites_103
+  - first:
+      213: -6169599439453756448
+    second: Bomber man sprites_104
+  - first:
+      213: 6475464567869553923
+    second: Bomber man sprites_105
+  - first:
+      213: -5652047965854322876
+    second: Bomber man sprites_106
+  - first:
+      213: -2524658241310708999
+    second: Bomber man sprites_107
+  - first:
+      213: -1524039862335143566
+    second: Bomber man sprites_108
+  - first:
+      213: 4377314716014791121
+    second: Bomber man sprites_109
+  - first:
+      213: -8395746783443987815
+    second: Bomber man sprites_110
+  - first:
+      213: -7625939916088324478
+    second: Bomber man sprites_111
+  - first:
+      213: 1462262145414081023
+    second: Bomber man sprites_112
+  - first:
+      213: 8801991684891440098
+    second: Bomber man sprites_113
+  - first:
+      213: 8443745427837075121
+    second: Bomber man sprites_114
+  - first:
+      213: -2885129351944137151
+    second: Bomber man sprites_115
+  - first:
+      213: 7633417889972681882
+    second: Bomber man sprites_116
+  - first:
+      213: 34850619460247675
+    second: Bomber man sprites_117
+  - first:
+      213: 6436802918477986513
+    second: Bomber man sprites_118
+  - first:
+      213: 5143552734076588902
+    second: Bomber man sprites_119
+  - first:
+      213: 1969184512659902486
+    second: Bomber man sprites_120
+  - first:
+      213: -53631356625747840
+    second: Bomber man sprites_121
+  - first:
+      213: 6229706813818401762
+    second: Bomber man sprites_122
+  - first:
+      213: 1708761530327725455
+    second: Bomber man sprites_123
+  - first:
+      213: -6597558085954519635
+    second: Bomber man sprites_124
+  - first:
+      213: -2057026085310849294
+    second: Bomber man sprites_125
+  - first:
+      213: 5963583956275209450
+    second: Bomber man sprites_126
+  - first:
+      213: 3177691502848346852
+    second: Bomber man sprites_127
+  - first:
+      213: 8709714898009836484
+    second: Bomber man sprites_128
+  - first:
+      213: 3297319623657231411
+    second: Bomber man sprites_129
+  - first:
+      213: -8310772957933043444
+    second: Bomber man sprites_130
+  - first:
+      213: -5476492617119537213
+    second: Bomber man sprites_131
+  - first:
+      213: -5428004170040918928
+    second: Bomber man sprites_132
+  - first:
+      213: 1502420073561351908
+    second: Bomber man sprites_133
+  - first:
+      213: 1946825402752089486
+    second: Bomber man sprites_134
+  - first:
+      213: -198856942286592654
+    second: Bomber man sprites_135
+  - first:
+      213: -6836033812429890335
+    second: Bomber man sprites_136
+  - first:
+      213: 3172383436233259105
+    second: Bomber man sprites_137
+  - first:
+      213: -3128815049514430326
+    second: Bomber man sprites_138
+  - first:
+      213: -171797247154255187
+    second: Bomber man sprites_139
+  - first:
+      213: 518162865638821840
+    second: Bomber man sprites_140
+  - first:
+      213: -3402885339619945925
+    second: Bomber man sprites_141
+  - first:
+      213: 7906828257409284145
+    second: Bomber man sprites_142
+  - first:
+      213: -7572749947679041323
+    second: Bomber man sprites_143
+  - first:
+      213: 7155780811064429456
+    second: Bomber man sprites_144
+  - first:
+      213: -5025616586218399206
+    second: Bomber man sprites_145
+  - first:
+      213: -8664212614904075241
+    second: Bomber man sprites_146
+  - first:
+      213: 6800368381163388129
+    second: Bomber man sprites_147
+  - first:
+      213: 4008842481489464055
+    second: Bomber man sprites_148
+  - first:
+      213: 3302728194970351225
+    second: Bomber man sprites_149
+  - first:
+      213: 5281375463786782246
+    second: Bomber man sprites_150
+  - first:
+      213: 8170934805899895000
+    second: Bomber man sprites_151
+  - first:
+      213: -4072191196187335666
+    second: Bomber man sprites_152
+  - first:
+      213: -7282872623204163684
+    second: Bomber man sprites_153
+  - first:
+      213: -4690221460981317972
+    second: Bomber man sprites_154
+  - first:
+      213: 1313036389604217759
+    second: Bomber man sprites_155
+  - first:
+      213: -2481254346724125091
+    second: Bomber man sprites_156
+  - first:
+      213: 3061361644736855281
+    second: Bomber man sprites_157
+  - first:
+      213: -8521584622028242835
+    second: Bomber man sprites_158
+  - first:
+      213: 379537148917572901
+    second: Bomber man sprites_159
+  - first:
+      213: 4616044258958734000
+    second: Bomber man sprites_160
+  - first:
+      213: 8477580016348922007
+    second: Bomber man sprites_161
+  - first:
+      213: 5143774476471792913
+    second: Bomber man sprites_162
+  - first:
+      213: 5527161517550755236
+    second: Bomber man sprites_163
+  - first:
+      213: -4861443670874588590
+    second: Bomber man sprites_164
+  - first:
+      213: 9128112914707391467
+    second: Bomber man sprites_165
+  - first:
+      213: -4523847425609236139
+    second: Bomber man sprites_166
+  - first:
+      213: -4007321441494711724
+    second: Bomber man sprites_167
+  - first:
+      213: -3778208652756859177
+    second: Bomber man sprites_168
+  - first:
+      213: -768483544937232149
+    second: Bomber man sprites_169
+  - first:
+      213: 5956382906355586429
+    second: Bomber man sprites_170
+  - first:
+      213: -3013257725132928422
+    second: Bomber man sprites_171
+  - first:
+      213: 7758064262247420361
+    second: Bomber man sprites_172
+  - first:
+      213: -3895709462192076727
+    second: Bomber man sprites_173
+  - first:
+      213: 465503652793129491
+    second: Bomber man sprites_174
+  - first:
+      213: -1007949013951869284
+    second: Bomber man sprites_175
+  - first:
+      213: -5668519215622925940
+    second: Bomber man sprites_176
+  - first:
+      213: -7836203883979424462
+    second: Bomber man sprites_177
+  - first:
+      213: 8547174579460356242
+    second: Bomber man sprites_178
+  - first:
+      213: -9125936196674572919
+    second: Bomber man sprites_179
+  - first:
+      213: 1458094441299327271
+    second: Bomber man sprites_180
+  - first:
+      213: 625754510910231663
+    second: Bomber man sprites_181
+  - first:
+      213: -3936168663009945769
+    second: Bomber man sprites_182
+  - first:
+      213: 8585691447866508404
+    second: Bomber man sprites_183
+  - first:
+      213: -7868225692098563930
+    second: Bomber man sprites_184
+  - first:
+      213: -8521168390510468073
+    second: Bomber man sprites_185
+  - first:
+      213: -8654115594622849080
+    second: Bomber man sprites_186
+  - first:
+      213: 2276633958546797896
+    second: Bomber man sprites_187
+  - first:
+      213: 3457917892102197636
+    second: Bomber man sprites_188
+  - first:
+      213: 6516193148475149104
+    second: Bomber man sprites_189
+  - first:
+      213: 1694958659497253492
+    second: Bomber man sprites_190
+  - first:
+      213: -96755695290141716
+    second: Bomber man sprites_191
+  - first:
+      213: 8928384970682075726
+    second: Bomber man sprites_192
+  - first:
+      213: 1777238924768053975
+    second: Bomber man sprites_193
+  - first:
+      213: 2116780859933635058
+    second: Bomber man sprites_194
+  - first:
+      213: -4013303653724857476
+    second: Bomber man sprites_195
+  - first:
+      213: 3312101949257194989
+    second: Bomber man sprites_196
+  - first:
+      213: -7518336184419760935
+    second: Bomber man sprites_197
+  - first:
+      213: -6730532392687612646
+    second: Bomber man sprites_198
+  - first:
+      213: -1114023168946972891
+    second: Bomber man sprites_199
+  - first:
+      213: 8546022499547708782
+    second: Bomber man sprites_200
+  - first:
+      213: 8464645083452479571
+    second: Bomber man sprites_201
+  - first:
+      213: 3665905049572315565
+    second: Bomber man sprites_210
+  - first:
+      213: -538657519080137199
+    second: Bomber man sprites_211
+  - first:
+      213: 586773615168420158
+    second: Bomber man sprites_212
+  - first:
+      213: -6831583889415566485
+    second: Bomber man sprites_213
+  - first:
+      213: -4781670927949473679
+    second: Bomber man sprites_214
+  - first:
+      213: -1281733561131056882
+    second: Bomber man sprites_215
+  - first:
+      213: -3039565932556561856
+    second: Bomber man sprites_216
+  - first:
+      213: -1013128710947490728
+    second: Bomber man sprites_217
+  - first:
+      213: 423321593343615245
+    second: Bomber man sprites_218
+  - first:
+      213: 4317083902441867110
+    second: Bomber man sprites_227
+  - first:
+      213: -1107614434941132958
+    second: Bomber man sprites_228
+  - first:
+      213: -3616964927112385007
+    second: Bomber man sprites_229
+  - first:
+      213: -3057456433702948907
+    second: Bomber man sprites_230
+  - first:
+      213: 4050400404612975516
+    second: Bomber man sprites_231
+  - first:
+      213: -4974229184125433389
+    second: Bomber man sprites_232
+  - first:
+      213: -2761191137306467708
+    second: Bomber man sprites_233
+  - first:
+      213: 6312405970810504907
+    second: Bomber man sprites_234
+  - first:
+      213: -2003540827683185814
+    second: Bomber man sprites_238
+  - first:
+      213: 2980265487973274089
+    second: Bomber man sprites_239
+  - first:
+      213: 2452903776442267048
+    second: Bomber man sprites_240
+  - first:
+      213: -4361205710868667927
+    second: Bomber man sprites_241
+  - first:
+      213: -7822785302489224504
+    second: Bomber man sprites_242
+  - first:
+      213: -6273536059841285712
+    second: Bomber man sprites_243
+  - first:
+      213: -1351615443128109600
+    second: Bomber man sprites_245
+  - first:
+      213: -3381393241009914324
+    second: Bomber man sprites_246
+  - first:
+      213: 9177159522335782491
+    second: Bomber man sprites_247
+  - first:
+      213: -7244991034988894085
+    second: Bomber man sprites_248
+  - first:
+      213: -8000250690496662991
+    second: Bomber man sprites_249
+  - first:
+      213: 8312869999120254557
+    second: Bomber man sprites_250
+  - first:
+      213: 3623983854054091418
+    second: Bomber man sprites_251
+  - first:
+      213: 3421452045395285607
+    second: Bomber man sprites_252
+  - first:
+      213: 7018063839768782644
+    second: Bomber man sprites_253
+  - first:
+      213: 8321279774938239474
+    second: Bomber man sprites_254
+  - first:
+      213: -8928606874897177373
+    second: Bomber man sprites_255
+  - first:
+      213: 343158767753149508
+    second: Bomber man sprites_256
+  - first:
+      213: 4589449647130088852
+    second: Bomber man sprites_257
+  - first:
+      213: -434062339884271821
+    second: Bomber man sprites_258
+  - first:
+      213: 7200082688268485971
+    second: Bomber man sprites_259
+  - first:
+      213: -9118507421346363460
+    second: Bomber man sprites_260
+  - first:
+      213: 1287333200777933373
+    second: Bomber man sprites_261
+  - first:
+      213: -3891975589656984969
+    second: Bomber man sprites_262
+  - first:
+      213: -24402446113223668
+    second: Bomber man sprites_263
+  - first:
+      213: -6486782683016967112
+    second: Bomber man sprites_264
+  - first:
+      213: -5163435404905883616
+    second: Bomber man sprites_265
+  - first:
+      213: 5237152590840251498
+    second: Bomber man sprites_266
+  - first:
+      213: -2388269091889058187
+    second: Bomber man sprites_267
+  - first:
+      213: 8208176835022298628
+    second: Bomber man sprites_268
+  - first:
+      213: 3910054903441064756
+    second: Bomber man sprites_269
+  - first:
+      213: 8109158661554128396
+    second: Bomber man sprites_270
+  - first:
+      213: -2495891064705203818
+    second: Bomber man sprites_271
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bomber man sprites_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 286
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd3b05608b716210800000000000000
+      internalID: 1324475556804902329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 286
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b771801f7c86b9fa0800000000000000
+      internalID: -5792921287730391173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 286
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c57f7aeb6ea3fad0800000000000000
+      internalID: -2669598375581616699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 286
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7fc4be1d8f1ae60800000000000000
+      internalID: 7971926395902031798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_11
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 286
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0e8c377cc079180800000000000000
+      internalID: -9108797670552969022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_35
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 261
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328881e14bd0f1cf0800000000000000
+      internalID: -279489584623482845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_36
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 261
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a428ea634aff9c80800000000000000
+      internalID: -8313651219639294814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_37
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 261
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7843cd17120491fc0800000000000000
+      internalID: -3523714721052347257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_38
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 261
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750eb3616d1f1c000800000000000000
+      internalID: 54590572303474775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_39
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 261
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6346b2c512fc1eb0800000000000000
+      internalID: -4747653731880385681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_40
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 261
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30cda2ade1be3ef0800000000000000
+      internalID: -126468105325133763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_54
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 236
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686528b6fc6f8b230800000000000000
+      internalID: 3654942468333524614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_55
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 236
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62e2c3c11821ac80800000000000000
+      internalID: -8313319380385340818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_56
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 236
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fca28ba336fd07d0800000000000000
+      internalID: -2950431479076573960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_57
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 236
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9bf4b0f0d1ba6e0800000000000000
+      internalID: -1825333273517114901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_58
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 236
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff582116137f6550800000000000000
+      internalID: 6156265754253090804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_59
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 236
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5de45e6b6b8f790800000000000000
+      internalID: -7496040683110738451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_73
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 211
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c93d53aef5cbf9f0800000000000000
+      internalID: -433535241657959992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_74
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 211
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321b9d488d9a6d8a0800000000000000
+      internalID: -6280645882914688733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_75
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 211
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5729299d269ba8b20800000000000000
+      internalID: 3137523924625166965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_76
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 211
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35cba3304e28e13e0800000000000000
+      internalID: -2081082061980255149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_77
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 211
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d083c90f9232330800000000000000
+      internalID: 3684835033509006751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_78
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 211
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b591d87614fd92fa0800000000000000
+      internalID: -5824879171023857317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_92
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 201
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77e68b7d29b59d70800000000000000
+      internalID: 9049342631267985277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_93
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 201
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5e539c8569c9f70800000000000000
+      internalID: 9195389847260751266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_94
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 201
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf55d83c39e89f90800000000000000
+      internalID: -6946545980358172734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_95
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 201
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b91be46ef1baba60800000000000000
+      internalID: 7690655019861481913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_96
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 201
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3b203c5fb784130800000000000000
+      internalID: 3551224601650574283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_97
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 201
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285aaa97f14bf40e0800000000000000
+      internalID: -2283408438775339646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_98
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 201
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ce20d4cdcbf6850800000000000000
+      internalID: 6372519652123405328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_99
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 201
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9bc4811ebea09a0800000000000000
+      internalID: -6265936579524773410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_100
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 199
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0754b725b07c210800000000000000
+      internalID: 1353062661931495609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_101
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 201
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386588d41d5b4bb80800000000000000
+      internalID: -8379873096076077437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_102
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 201
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe9d7ab0a71b1c70800000000000000
+      internalID: 8942767464165252857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_103
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 201
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f62adca67b684f0800000000000000
+      internalID: -826771812231516405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_104
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 201
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3e8ec6ffd216aa0800000000000000
+      internalID: -6169599439453756448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_105
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 201
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d3e7b47b87dd950800000000000000
+      internalID: 6475464567869553923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_106
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 201
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fa8c52254ef81b0800000000000000
+      internalID: -5652047965854322876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_107
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 201
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9faa96ba4bc96fcd0800000000000000
+      internalID: -2524658241310708999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_108
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 201
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2718af5e1d589dae0800000000000000
+      internalID: -1524039862335143566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_109
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 201
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9c62eca885fbc30800000000000000
+      internalID: 4377314716014791121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_110
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 201
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99251b478c05c7b80800000000000000
+      internalID: -8395746783443987815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_111
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 201
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e451fdc083b2690800000000000000
+      internalID: -7625939916088324478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_112
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 199
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff928e18caffa4410800000000000000
+      internalID: 1462262145414081023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_147
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 165
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ecba054303cf5e50800000000000000
+      internalID: 6800368381163388129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_148
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 165
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7facca54ff442a730800000000000000
+      internalID: 4008842481489464055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_149
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 165
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976ffd27bc5a5dd20800000000000000
+      internalID: 3302728194970351225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_150
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 165
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e997c90073b4940800000000000000
+      internalID: 5281375463786782246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_151
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 165
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0e98c1aedf46170800000000000000
+      internalID: 8170934805899895000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_173
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 114
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948c9ed62e8afe9c0800000000000000
+      internalID: -3895709462192076727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_174
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 114
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a916a1b1dc57600800000000000000
+      internalID: 465503652793129491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_175
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 114
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e81bf46bb0302f0800000000000000
+      internalID: -1007949013951869284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_176
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 112
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81d1567ecf5551b0800000000000000
+      internalID: -5668519215622925940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_177
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 112
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23dbed3e516304390800000000000000
+      internalID: -7836203883979424462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_178
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 114
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298bbf1cef9ad9670800000000000000
+      internalID: 8547174579460356242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_179
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 114
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d255261692a5180800000000000000
+      internalID: -9125936196674572919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_180
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 114
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7293e964b213c3410800000000000000
+      internalID: 1458094441299327271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_181
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 114
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64176b89602fa800800000000000000
+      internalID: 625754510910231663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_182
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 114
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7579449a47bef59c0800000000000000
+      internalID: -3936168663009945769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_183
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 114
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474413502e0862770800000000000000
+      internalID: 8585691447866508404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_184
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 114
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0fcd1bb627ec290800000000000000
+      internalID: -7868225692098563930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_185
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 114
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7142654fe7abeb980800000000000000
+      internalID: -8521168390510468073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_186
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 114
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf2659d7b766e780800000000000000
+      internalID: -8654115594622849080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_187
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 114
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845f5cee58a389f10800000000000000
+      internalID: 2276633958546797896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_188
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 114
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4811835800efcff20800000000000000
+      internalID: 3457917892102197636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_189
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 114
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b02bee42b2e6a50800000000000000
+      internalID: 6516193148475149104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_190
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 114
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a5e48abe3b58710800000000000000
+      internalID: 1694958659497253492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_191
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 114
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce33c30353148aef0800000000000000
+      internalID: -96755695290141716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_192
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 114
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a017383def7eb70800000000000000
+      internalID: 8928384970682075726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_193
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 114
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da0cc7c2650aa810800000000000000
+      internalID: 1777238924768053975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_194
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 114
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1b0b71af0506d10800000000000000
+      internalID: 2116780859933635058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_195
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 114
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bd3ff1791ed48c0800000000000000
+      internalID: -4013303653724857476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_196
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 114
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded9a51bc23f6fd20800000000000000
+      internalID: 3312101949257194989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_197
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 114
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4c1b9f21189a790800000000000000
+      internalID: -7518336184419760935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_198
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 114
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d4890e2785892a0800000000000000
+      internalID: -6730532392687612646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_199
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 112
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5275c5784d13a80f0800000000000000
+      internalID: -1114023168946972891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_200
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 112
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d79004f22999670800000000000000
+      internalID: 8546022499547708782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_227
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 74
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667ca96bfec59eb30800000000000000
+      internalID: 4317083902441867110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_228
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 74
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f1d313a86f0a0f0800000000000000
+      internalID: -1107614434941132958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_229
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 71
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e6b62ff85fdcdc0800000000000000
+      internalID: -3616964927112385007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_230
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 71
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df27e8929bb195d0800000000000000
+      internalID: -3057456433702948907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_231
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 71
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b0e0345b9e53830800000000000000
+      internalID: 4050400404612975516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_232
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 71
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d982d069ecf7fab0800000000000000
+      internalID: -4974229184125433389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_233
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 71
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48224ef3a474ea9d0800000000000000
+      internalID: -2761191137306467708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_234
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 71
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6073039cb2a9750800000000000000
+      internalID: 6312405970810504907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_238
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 53
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6b93f08b3ef134e0800000000000000
+      internalID: -2003540827683185814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_239
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 53
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e1d003dba70c5920800000000000000
+      internalID: 2980265487973274089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_240
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 53
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a53e071df67a0220800000000000000
+      internalID: 2452903776442267048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_242
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 58
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8caabfad632ef6390800000000000000
+      internalID: -7822785302489224504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_243
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 58
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b17e83313cefe8a0800000000000000
+      internalID: -6273536059841285712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_245
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 51
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5ba676ae81e3de0800000000000000
+      internalID: -1351615443128109600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_246
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 53
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e72bf33c0e211d0800000000000000
+      internalID: -3381393241009914324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_247
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 53
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56faef76f1db5f70800000000000000
+      internalID: 9177159522335782491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_248
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 53
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78e89e0a0f947b90800000000000000
+      internalID: -7244991034988894085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_249
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 53
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1327fd6526669f090800000000000000
+      internalID: -8000250690496662991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_250
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 26
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d568091883f3d5370800000000000000
+      internalID: 8312869999120254557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_260
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 3
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb703ecefcd847180800000000000000
+      internalID: -9118507421346363460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_261
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 3
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d327febb9b68dd110800000000000000
+      internalID: 1287333200777933373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_262
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 3
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772010062dcecf9c0800000000000000
+      internalID: -3891975589656984969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_263
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c45c3ca1e49aff0800000000000000
+      internalID: -24402446113223668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_264
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 3
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c4e9ba4815af5a0800000000000000
+      internalID: -6486782683016967112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_265
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 3
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028d8e53bdac758b0800000000000000
+      internalID: -5163435404905883616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_266
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 3
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64cc83a88a1ea840800000000000000
+      internalID: 5237152590840251498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_267
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 3
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e68ed1ae92bded0800000000000000
+      internalID: -2388269091889058187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_268
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 3
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e1819b75d49e170800000000000000
+      internalID: 8208176835022298628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_269
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 3
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43301e3e73e434630800000000000000
+      internalID: 3910054903441064756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_270
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 3
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c064739a6d4898070800000000000000
+      internalID: 8109158661554128396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bomber man sprites_271
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 3
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 691cc2aec40dc5dd0800000000000000
+      internalID: -2495891064705203818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
