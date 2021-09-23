@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Animations;
+using UnityEngine.Tilemaps;
 
 public class PlayerController : BombermanControls
 {
@@ -16,7 +17,7 @@ public class PlayerController : BombermanControls
         rigidbody = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.W))
         {
@@ -42,10 +43,32 @@ public class PlayerController : BombermanControls
         {
             rigidbody.velocity = Vector2.zero;
         }
+    }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+    private void Update()
+    {
         {
-            PlaceBomb();
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                PlaceBomb();
+            }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Breakables")
+        {
+            Tilemap tilemap = collision.gameObject.GetComponent<Tilemap>();
+
+            Vector2 hitPosition = Vector2.zero;
+
+            foreach(ContactPoint2D hit in collision.contacts)
+            {
+                hitPosition.x = hit.point.x;
+                hitPosition.y = hit.point.y;
+                tilemap.SetTile(tilemap.WorldToCell(hitPosition), null);
+            }
         }
     }
 }
