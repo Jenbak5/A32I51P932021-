@@ -1,446 +1,64 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Education; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 32489 MB
+OS: 'Windows 10 Home; OS build 19042.1237; Version 2009; 64bit' Language: 'sv' Physical Memory: 16323 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Editor\Unity.exe
+D:\Games and Stuff\Unity\2020.3.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/temp/AI Prototypes 2021/AI Prototype 2 - Pathfinding Bomberman 2
+D:/GitKraken/AI Prototypes 2021/AI Prototype 2 - Pathfinding Bomberman 2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57376
-Successfully changed project path to: C:/temp/AI Prototypes 2021/AI Prototype 2 - Pathfinding Bomberman 2
-C:/temp/AI Prototypes 2021/AI Prototype 2 - Pathfinding Bomberman 2
+56963
+Successfully changed project path to: D:/GitKraken/AI Prototypes 2021/AI Prototype 2 - Pathfinding Bomberman 2
+D:/GitKraken/AI Prototypes 2021/AI Prototype 2 - Pathfinding Bomberman 2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 24.78 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 36.75 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/temp/AI Prototypes 2021/AI Prototype 2 - Pathfinding Bomberman 2/Assets
+[Subsystems] Discovering subsystems at path D:/Games and Stuff/Unity/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitKraken/AI Prototypes 2021/AI Prototype 2 - Pathfinding Bomberman 2/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 760 (192-bit) (ID=0x118e)
     Vendor:   
-    VRAM:     8043 MB
-    Driver:   30.0.14.7168
+    VRAM:     3029 MB
+    Driver:   27.21.14.6611
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56120
+Mono path[0] = 'D:/Games and Stuff/Unity/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Games and Stuff/Unity/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Games and Stuff/Unity/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001552 seconds.
+Register platform support module: D:/Games and Stuff/Unity/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001863 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 27.82 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 33.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.867 seconds
+- Completed reload, in  0.977 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000852 seconds.
+Registered in 0.000946 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 28.87 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.28 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.663 seconds
+- Completed reload, in  1.078 seconds
 Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.8 MB.
-System memory in use after: 84.8 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2253.
-Total: 2.177700 ms (FindLiveObjects: 0.159300 ms CreateObjectMapping: 0.058300 ms MarkObjects: 1.858000 ms  DeleteObjects: 0.101100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Images/SNES - Super Bomberman 5 JPN - Bomberman.xcf
-  artifactKey: Guid(4ab6be3c310561643afa5346036d68ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Bomberman.xcf using Guid(4ab6be3c310561643afa5346036d68ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd704321939d0ca992c5faedfc1f15051') in 0.019478 seconds
-  Import took 0.021794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Images/SNES - Super Bomberman 5 JPN - Baron Bombano.xcf
-  artifactKey: Guid(8b60f0fc84462314c8b1ec97af89f291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Baron Bombano.xcf using Guid(8b60f0fc84462314c8b1ec97af89f291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff53c29fd5037b4cb6cedbc312c0cc6') in 0.002067 seconds
-  Import took 0.004174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.633043 seconds.
-  path: Assets/Images/SNES - Super Bomberman 5 JPN - Plunder Bomber.xcf
-  artifactKey: Guid(0d45dffef133bac468d81def14f14527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Plunder Bomber.xcf using Guid(0d45dffef133bac468d81def14f14527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d44994114cad1d357057722c0dc7fb') in 0.002299 seconds
-  Import took 0.004916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 295.699573 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cec44521becc58b1167c3f0820266ff') in 0.003828 seconds
-  Import took 0.006687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001199 seconds.
-  path: Assets/Scripts/PlayerController.cs
-  artifactKey: Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerController.cs using Guid(50e527856db322d4e89281f35738eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cec44521becc58b1167c3f0820266ff') in 0.001828 seconds
-  Import took 0.004461 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000769 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.699 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.8 MB.
-System memory in use after: 84.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2257.
-Total: 2.101900 ms (FindLiveObjects: 0.306900 ms CreateObjectMapping: 0.063400 ms MarkObjects: 1.626500 ms  DeleteObjects: 0.103400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000727 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.635 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.8 MB.
-System memory in use after: 84.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2261.
-Total: 1.867800 ms (FindLiveObjects: 0.352600 ms CreateObjectMapping: 0.101800 ms MarkObjects: 1.317000 ms  DeleteObjects: 0.094800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000734 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.640 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.9 MB.
-System memory in use after: 84.8 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2265.
-Total: 2.037300 ms (FindLiveObjects: 0.288300 ms CreateObjectMapping: 0.080200 ms MarkObjects: 1.559700 ms  DeleteObjects: 0.107000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 550.749614 seconds.
-  path: Assets/Images/Bomber man sprites.png
-  artifactKey: Guid(afa74b7236de25340bf7a3d9bef044ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Bomber man sprites.png using Guid(afa74b7236de25340bf7a3d9bef044ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '998558046a68bbc032d73e129c5ade0c') in 0.063575 seconds
-  Import took 0.066628 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Images/SNES - Super Bomberman 5 JPN - Bomberman.png
-  artifactKey: Guid(dada306d4fd56e8468a01e579d0a68f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/SNES - Super Bomberman 5 JPN - Bomberman.png using Guid(dada306d4fd56e8468a01e579d0a68f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171378ce79467b25ddff3756be7ce57f') in 0.006824 seconds
-  Import took 0.008906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.328584 seconds.
-  path: Assets/Images/Bomber man sprites.png
-  artifactKey: Guid(afa74b7236de25340bf7a3d9bef044ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Bomber man sprites.png using Guid(afa74b7236de25340bf7a3d9bef044ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff42d56bbb339ca8233d16bf551b386') in 0.006657 seconds
-  Import took 0.009109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 57.227336 seconds.
-  path: Assets/Images/Bomber man sprites.png
-  artifactKey: Guid(afa74b7236de25340bf7a3d9bef044ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Bomber man sprites.png using Guid(afa74b7236de25340bf7a3d9bef044ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '785fb699a6ab7446ea157c9e1618cf14') in 0.317768 seconds
-  Import took 0.320944 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.670452 seconds.
-  path: Assets/Images/Bomber man sprites.png
-  artifactKey: Guid(afa74b7236de25340bf7a3d9bef044ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Bomber man sprites.png using Guid(afa74b7236de25340bf7a3d9bef044ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e377c7dc78cdd9f7be66d604f4ab604') in 0.250417 seconds
-  Import took 0.253694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 122.255134 seconds.
-  path: Assets/Images/Bomber man sprites.png
-  artifactKey: Guid(afa74b7236de25340bf7a3d9bef044ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Bomber man sprites.png using Guid(afa74b7236de25340bf7a3d9bef044ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17502411f3563d58a1fbf899fdc6a73') in 0.163516 seconds
-  Import took 0.167328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.370360 seconds.
-  path: Assets/Images/Bomber man sprites.png
-  artifactKey: Guid(afa74b7236de25340bf7a3d9bef044ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Bomber man sprites.png using Guid(afa74b7236de25340bf7a3d9bef044ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb66177c694e5bbe50ca8e3656e1c816') in 0.175330 seconds
-  Import took 0.177895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.780730 seconds.
-  path: Assets/Sprites/Bomberman walk.anim
-  artifactKey: Guid(910e09bdce6d11f469ab3bffee45adaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Bomberman walk.anim using Guid(910e09bdce6d11f469ab3bffee45adaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dcac70454ec85b0d264aa68fef1fe0a') in 0.007694 seconds
-  Import took 0.010001 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.846495 seconds.
-  path: Assets/Sprites/New Animator Controller.controller
-  artifactKey: Guid(424f4fa1b528e404aa7f40ffd7fc41d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/New Animator Controller.controller using Guid(424f4fa1b528e404aa7f40ffd7fc41d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece4f0f130daa650f9678a5e105d77ba') in 0.005118 seconds
-  Import took 0.007657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000933 seconds.
-  path: Assets/Sprites/New Animator Controller.controller
-  artifactKey: Guid(424f4fa1b528e404aa7f40ffd7fc41d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/New Animator Controller.controller using Guid(424f4fa1b528e404aa7f40ffd7fc41d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece4f0f130daa650f9678a5e105d77ba') in 0.002299 seconds
-  Import took 0.004598 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.434528 seconds.
-  path: Assets/Sprites/BombermanAnimatorController.controller
-  artifactKey: Guid(424f4fa1b528e404aa7f40ffd7fc41d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/BombermanAnimatorController.controller using Guid(424f4fa1b528e404aa7f40ffd7fc41d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f6e995c6fd426e8c02e2c4d462b253') in 0.002906 seconds
-  Import took 0.005347 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001143 seconds.
-  path: Assets/Sprites/BombermanAnimatorController.controller
-  artifactKey: Guid(424f4fa1b528e404aa7f40ffd7fc41d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/BombermanAnimatorController.controller using Guid(424f4fa1b528e404aa7f40ffd7fc41d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f6e995c6fd426e8c02e2c4d462b253') in 0.002667 seconds
-  Import took 0.004890 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.194992 seconds.
-  path: Assets/Sprites/BombermanWalkUp.anim
-  artifactKey: Guid(9cd35c51b9992de47913b7143efe018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/BombermanWalkUp.anim using Guid(9cd35c51b9992de47913b7143efe018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f880a0db447c1197ac133094c0687c') in 0.002566 seconds
-  Import took 0.005027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.542262 seconds.
-  path: Assets/Sprites/BombermanWalkUp 1.anim
-  artifactKey: Guid(bbc35941106a2a645b5850a96a0db3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/BombermanWalkUp 1.anim using Guid(bbc35941106a2a645b5850a96a0db3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aab06a097e1300f74e2b7ffd3b97c9b') in 0.003186 seconds
-  Import took 0.005442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.377854 seconds.
-  path: Assets/Sprites/BombermanWalkUp 2.anim
-  artifactKey: Guid(eefb8aa6e5133c244a2aed0d25d8279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/BombermanWalkUp 2.anim using Guid(eefb8aa6e5133c244a2aed0d25d8279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00502ac89772210b69c43d3ae5a2cd1') in 0.002462 seconds
-  Import took 0.004768 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.301880 seconds.
-  path: Assets/Sprites/BombermanWalkUp 3.anim
-  artifactKey: Guid(3e6445ae5baf81c44a392ecb881ad759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/BombermanWalkUp 3.anim using Guid(3e6445ae5baf81c44a392ecb881ad759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6e00f1801d53716f8da4c6af287613') in 0.003477 seconds
-  Import took 0.005882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.768559 seconds.
-  path: Assets/Sprites/BombermanWalkUp 2.anim
-  artifactKey: Guid(eefb8aa6e5133c244a2aed0d25d8279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/BombermanWalkUp 2.anim using Guid(eefb8aa6e5133c244a2aed0d25d8279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d20a17cb4b901d3ece1bb8b212e62ea') in 0.002671 seconds
-  Import took 0.005545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002593 seconds.
-  path: Assets/Sprites/BombermanWalkUp 2.anim
-  artifactKey: Guid(eefb8aa6e5133c244a2aed0d25d8279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/BombermanWalkUp 2.anim using Guid(eefb8aa6e5133c244a2aed0d25d8279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d20a17cb4b901d3ece1bb8b212e62ea') in 0.002245 seconds
-  Import took 0.004672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.162813 seconds.
-  path: Assets/Sprites/BombermanWalkUp 1.anim
-  artifactKey: Guid(bbc35941106a2a645b5850a96a0db3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/BombermanWalkUp 1.anim using Guid(bbc35941106a2a645b5850a96a0db3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a18e18e0980e0118432edd04017a43a') in 0.002675 seconds
-  Import took 0.005261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.983334 seconds.
-  path: Assets/Sprites/BombermanWalkDown.anim
-  artifactKey: Guid(bbc35941106a2a645b5850a96a0db3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/BombermanWalkDown.anim using Guid(bbc35941106a2a645b5850a96a0db3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05b1610d1e48473a7e5c33b697486e9') in 0.002505 seconds
-  Import took 0.005000 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.362662 seconds.
-  path: Assets/Sprites/BombermanWalkLeft.anim
-  artifactKey: Guid(eefb8aa6e5133c244a2aed0d25d8279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/BombermanWalkLeft.anim using Guid(eefb8aa6e5133c244a2aed0d25d8279a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b121d69a99e4f5b34522972e60753649') in 0.002815 seconds
-  Import took 0.005180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.555225 seconds.
-  path: Assets/Sprites/BombermanWalkRight.anim
-  artifactKey: Guid(3e6445ae5baf81c44a392ecb881ad759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/BombermanWalkRight.anim using Guid(3e6445ae5baf81c44a392ecb881ad759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9577c19baee9e69dffd95f42681953f2') in 0.002427 seconds
-  Import took 0.004662 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.888685 seconds.
-  path: Assets/Sprites/BombermanAnimatorController.controller
-  artifactKey: Guid(424f4fa1b528e404aa7f40ffd7fc41d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/BombermanAnimatorController.controller using Guid(424f4fa1b528e404aa7f40ffd7fc41d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0977d67982f7ce86e25ffcccd849dd') in 0.003161 seconds
-  Import took 0.005957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001090 seconds.
-  path: Assets/Sprites/BombermanAnimatorController.controller
-  artifactKey: Guid(424f4fa1b528e404aa7f40ffd7fc41d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/BombermanAnimatorController.controller using Guid(424f4fa1b528e404aa7f40ffd7fc41d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0977d67982f7ce86e25ffcccd849dd') in 0.002784 seconds
-  Import took 0.006182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 78.577477 seconds.
-  path: Assets/Images/Bomberman walk.anim
-  artifactKey: Guid(811f79e7fc31db04abbac74aca0b946b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/Bomberman walk.anim using Guid(811f79e7fc31db04abbac74aca0b946b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d74176cdfca70b2fda886112e40cc15') in 0.004454 seconds
-  Import took 0.007547 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000762 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.604 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.2 MB.
-System memory in use after: 88.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2353.
-Total: 1.741500 ms (FindLiveObjects: 0.196700 ms CreateObjectMapping: 0.053600 ms MarkObjects: 1.391300 ms  DeleteObjects: 0.098100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000732 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.507 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.2 MB.
-System memory in use after: 88.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2357.
-Total: 1.797500 ms (FindLiveObjects: 0.233800 ms CreateObjectMapping: 0.057800 ms MarkObjects: 1.384200 ms  DeleteObjects: 0.120500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 629.227450 seconds.
-  path: Assets/Images/BombermanWalkDown.anim
-  artifactKey: Guid(cb813b72b3f04b741b5ac134e0456279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/BombermanWalkDown.anim using Guid(cb813b72b3f04b741b5ac134e0456279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b5a34275c63b5ddc63606e4ae911d96') in 0.012147 seconds
-  Import took 0.015161 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorkerClient::OnTransportError - code=10060 error=Anslutningsförsöket misslyckades eftersom den anslutna datorn inte svarade inom en viss tid eller på grund av att den etablerade anslutningen till värddatorn inte längre fungerar.
