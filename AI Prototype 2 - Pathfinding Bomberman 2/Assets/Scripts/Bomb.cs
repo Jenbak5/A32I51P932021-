@@ -8,42 +8,52 @@ public class Bomb : MonoBehaviour
     public float explodeDelay;
 
     private float timer;
-    private int range = 2;
+    public float range = 0.5f;
+
+    public GameObject collisionBox = null;
 
     public void Explode()
     {
+        LayerMask layer = LayerMask.GetMask("Breakables");
+
+        RaycastHit2D hitUp = Physics2D.Raycast(transform.position, Vector2.up, range, layer);
+        if (hitUp.collider != null && hitUp.collider.gameObject.tag == "Breakables")
+        {
+            Debug.Log("Hit a breakable up");
+            DestroyTile(hitUp, Vector2.up);
+            DrawRays(hitUp);
+        }
+        RaycastHit2D hitLeft = Physics2D.Raycast(transform.position, Vector2.left, range, layer);
+        if (hitLeft.collider != null && hitLeft.collider.gameObject.tag == "Breakables")
+        {
+            Debug.Log("Hit a breakable left");
+            DestroyTile(hitLeft, Vector2.up);
+            DrawRays(hitLeft);
+        }
+        RaycastHit2D hitDown = Physics2D.Raycast(transform.position, Vector2.down, range, layer);
+        if (hitDown.collider != null && hitDown.collider.gameObject.tag == "Breakables")
+        {
+            Debug.Log("Hit a breakable down");
+            DestroyTile(hitDown, Vector2.down);
+            DrawRays(hitDown);
+        }
+        RaycastHit2D hitRight = Physics2D.Raycast(transform.position, Vector2.right, range, layer);
+        if (hitRight.collider != null && hitRight.collider.gameObject.tag == "Breakables")
+        {
+            Debug.Log("Hit a breakable right");
+            DestroyTile(hitRight, Vector2.down);
+            DrawRays(hitRight);
+
+        }
         Destroy(gameObject);
-
-        // Use Raycast to collide with breakables
-        RaycastHit2D hitUp = Physics2D.Raycast(transform.position, Vector2.up, range);
-        if (hitUp.collider != null && hitUp.collider.tag == "Breakables")
-        {
-            DestroyTile(hitUp);
-        }
-
-        RaycastHit2D hitLeft = Physics2D.Raycast(transform.position, Vector2.left, range);
-        if (hitLeft.collider != null && hitUp.collider.tag == "Breakables")
-        {
-            DestroyTile(hitUp);
-        }
-        RaycastHit2D hitDown = Physics2D.Raycast(transform.position, Vector2.down, range);
-        if (hitDown.collider != null && hitUp.collider.tag == "Breakables")
-        {
-            DestroyTile(hitUp);
-        }
-        RaycastHit2D hitRight = Physics2D.Raycast(transform.position, Vector2.right, range);
-        if (hitRight.collider != null && hitUp.collider.tag == "Breakables")
-        {
-            DestroyTile(hitUp);
-        }
     }
 
-    void OnDrawGizmosSelected()
-    {
-            // Draws a blue line from this transform to the target
-            Gizmos.color = Color.blue;
-            Gizmos.DrawLine(transform.position, Vector2.left * range);
-    }
+    //void OnDrawGizmosSelected()
+    //{
+    //        // Draws a blue line from this transform to the target
+    //        Gizmos.color = Color.blue;
+    //        Gizmos.DrawLine(transform.position, Vector2.left * range);
+    //}
 
     public void Awake()
     {
@@ -52,7 +62,7 @@ public class Bomb : MonoBehaviour
 
     public void Spawn()
     {
-
+        collisionBox.SetActive(false);
     }
 
     public void Update()
@@ -64,11 +74,41 @@ public class Bomb : MonoBehaviour
         }
     }
 
-    private void DestroyTile(RaycastHit2D hit)
+    private void DestroyTile(RaycastHit2D hit, Vector2 dir)
     {
-        Vector3Int hitPosition = Vector3Int.zero;
-        hitPosition.x = ((int)hit.point.x);
-        hitPosition.y = ((int)hit.point.y);
-        hit.collider.GetComponent<Tilemap>().SetTile(hitPosition, null);
+        // hit.distance += 0.25f;
+        Vector3 hitPosition = Vector3.zero;
+        Tilemap tilemap = hit.collider.gameObject.GetComponent<Tilemap>();
+
+        if (dir == Vector2.up)
+        {
+            hitPosition.x = hit.point.x - 0.01f;
+            hitPosition.y = hit.point.y + 0.01f;
+        }
+        if (dir == Vector2.down)
+        {
+            hitPosition.x = hit.point.x + 0.01f;
+            hitPosition.y = hit.point.y - 0.01f;
+        }
+
+        tilemap.SetTile(tilemap.WorldToCell(hitPosition), null);
+
+        Debug.Log("Destroying tile at: [" + hitPosition.x + ", " + hitPosition.y + "]");
+    }
+
+    private void DrawRays(RaycastHit2D hit)
+    {
+        Debug.DrawRay(hit.transform.position, Vector2.up, Color.blue, 2);
+        Debug.DrawRay(hit.transform.position, Vector2.down, Color.blue, 2);
+        Debug.DrawRay(hit.transform.position, Vector2.left, Color.blue, 2);
+        Debug.DrawRay(hit.transform.position, Vector2.right, Color.blue, 2);
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            collisionBox.SetActive(true);
+        }
     }
 }
