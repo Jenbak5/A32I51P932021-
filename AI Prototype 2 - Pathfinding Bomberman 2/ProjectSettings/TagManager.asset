@@ -7,6 +7,7 @@ TagManager:
   - Breakables
   - Floor
   - Wall
+  - Tile
   layers:
   - Default
   - TransparentFX

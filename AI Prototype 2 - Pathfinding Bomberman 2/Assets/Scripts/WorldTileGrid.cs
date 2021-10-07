@@ -11,7 +11,7 @@ public class WorldTileGrid : MonoBehaviour
 
     bool gridComplete = false;
 
-    public List<GameObject> worldTiles;
+    private static List<GameObject> worldTiles;
 
     private void Update()
     {
@@ -40,6 +40,12 @@ public class WorldTileGrid : MonoBehaviour
     public void CreateWT(Vector3 pos)
     {
         GameObject newTile = Instantiate(worldTile, pos, Quaternion.identity);
-        worldTiles.Add(newTile);
+        //worldTiles.Add(newTile);
     }
+
+    //public static WorldTile GetRandomTile()
+    //{
+    //    WorldTile randomTile = worldTiles[Random.Range(0, worldTiles.Count)].GetComponent<WorldTile>();
+    //    return randomTile;
+    //}
 }

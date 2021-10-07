@@ -15,6 +15,7 @@ public class WorldTile : MonoBehaviour
     private void Start()
     {
         name = "WorldTile [" + transform.position.x + ", " + transform.position.y + "]";
+        tag = "Tile";
         GetTileState();
     }
 
