@@ -77,13 +77,16 @@ public class EnemyAI : BombermanControls
 
                     Instantiate(debugCounter, CurrentWT.WorldLocation, Quaternion.identity).text = "C";
                     // REMOVE current_cell from OPEN_LIST 
-                    // ADD current_cell to CLOSED_LIST
                     OpenList.Remove(CurrentWT);
+                    // ADD current_cell to CLOSED_LIST
                     ClosedList.Add(CurrentWT);
+
+                      
+                    // If tile 
+
+
                 }
             }
-
-
 
             // IF current_cell is finish_cell
             if (CurrentWT.WorldLocation == destination.WorldLocation)
@@ -148,16 +151,17 @@ public class EnemyAI : BombermanControls
             wtIsInClosed = false;
             wtIsInOpen = false;
 
-            return;
-
-        }
-
-        while (moveRoute)
-        {
-            StartCoroutine("MoveRoute");
-
+            //return;
             break;
         }
+
+
+        //while (moveRoute)
+        //{
+        //    StartCoroutine("MoveRoute");
+
+        //    break;
+        //}
     }
 
     private void TraceRoute(List<WorldTile> listInput)
@@ -169,6 +173,10 @@ public class EnemyAI : BombermanControls
                 Route.Add(listInput[i]);
             }
             moveRoute = true;
+        }
+        if (moveRoute)
+        {
+            StartCoroutine("MoveRoute");
         }
         Debug.Log("Amount in ClosedList:" + ClosedList.Count);
     }
@@ -220,8 +228,12 @@ public class EnemyAI : BombermanControls
                     // If next tile is open, move there
                     if (nextTileInRoute.state == WorldTile.TileState.Floor)
                     {
-                        GridMove(nextTileInRoute.WorldLocation);
-                        yield return new WaitForSeconds(1f);
+                        Debug.Log("Trying to move");
+                        if (!isMoving)
+                        {
+                            GridMove(nextTileInRoute.WorldLocation);
+                        }
+                        //yield return new WaitForSeconds(1f);
                         continue;
                     }
                 }
@@ -240,15 +252,13 @@ public class EnemyAI : BombermanControls
 
                     GridMove(Route[tilesTraveled - 1].WorldLocation);
 
-                    if (!isMoving)
+                    // If tile is Adjacent
+                    if (CheckDistance(transform.position, nextTileInRoute.WorldLocation) == 1)
                     {
-                        // If tile is Adjacent
-                        if (CheckDistance(transform.position, nextTileInRoute.WorldLocation) == 1)
-                        {
-                            Debug.Log("Tile is ADJ 2");
-                            if (nextTileIsAdj == false) nextTileIsAdj = true;
-                        }
+                        Debug.Log("Tile is ADJ 2");
+                        if (nextTileIsAdj == false) nextTileIsAdj = true;
                     }
+
                     nextTileIsAdj = true;
                     nextTileInRoute = null;
                     continue;
@@ -275,6 +285,32 @@ public class EnemyAI : BombermanControls
 
     private void GridMove(Vector3 destination)
     {
+        moveCoroutine = GridMoveSequence(destination);
+        StartCoroutine(moveCoroutine);
+        //if (!moveMarkerPlaced) { moveMarker = destination; moveMarkerPlaced = true; }
+
+        //if (transform.position != moveMarker)
+        //{
+        //    lerpProgress += moveSpeed * Time.deltaTime;
+        //    transform.position = Vector3.Lerp(transform.position, moveMarker, lerpProgress);
+        //}
+
+        //else if (transform.position == moveMarker && moveMarkerPlaced == true)
+        //{
+        //    moveMarkerPlaced = false;
+        //    lerpProgress = 0;
+        //    nextTileIsAdj = false;
+        //    if (tilesTraveled + 1 < Route.Count)
+        //    {
+        //        tilesTraveled++;
+        //    }
+        //}
+    }
+
+    IEnumerator GridMoveSequence(Vector3 destination)
+    {
+        //if (!isMoving) isMoving = true;
+
         if (!moveMarkerPlaced) { moveMarker = destination; moveMarkerPlaced = true; }
 
         if (transform.position != moveMarker)
@@ -288,10 +324,12 @@ public class EnemyAI : BombermanControls
             moveMarkerPlaced = false;
             lerpProgress = 0;
             nextTileIsAdj = false;
-            if (tilesTraveled + 1 < Route.Count)
-            {
-                tilesTraveled++;
-            }
+
+            tilesTraveled++;
+
+            yield return new WaitForSeconds(1f);
+            isMoving = false;
+            yield return null;
         }
     }
 

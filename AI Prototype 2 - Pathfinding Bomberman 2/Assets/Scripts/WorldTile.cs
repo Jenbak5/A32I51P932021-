@@ -17,6 +17,8 @@ public class WorldTile
 
     public Tilemap TilemapMember { get; set; }
 
+    public WorldTile parent = null;
+
     public bool dangerTile = false;
 
     public int baseCost;
