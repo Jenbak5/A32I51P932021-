@@ -12,6 +12,10 @@ public class Bomb : MonoBehaviour
 
     public GameObject collisionBox = null;
 
+
+    // TODO: Update the exploded tiles into WorldTileGrid.
+
+
     public void Explode()
     {
         LayerMask layer = LayerMask.GetMask("Breakables");
@@ -21,6 +25,7 @@ public class Bomb : MonoBehaviour
         {
             Debug.Log("Hit a breakable up");
             DestroyTile(hitUp, Vector2.up);
+            UpdateTile(hitUp.collider.transform.position);
             DrawRays(hitUp);
         }
         RaycastHit2D hitLeft = Physics2D.Raycast(transform.position, Vector2.left, range, layer);
@@ -28,6 +33,7 @@ public class Bomb : MonoBehaviour
         {
             Debug.Log("Hit a breakable left");
             DestroyTile(hitLeft, Vector2.up);
+            UpdateTile(hitLeft.collider.transform.position);
             DrawRays(hitLeft);
         }
         RaycastHit2D hitDown = Physics2D.Raycast(transform.position, Vector2.down, range, layer);
@@ -35,6 +41,7 @@ public class Bomb : MonoBehaviour
         {
             Debug.Log("Hit a breakable down");
             DestroyTile(hitDown, Vector2.down);
+            UpdateTile(hitDown.collider.transform.position);
             DrawRays(hitDown);
         }
         RaycastHit2D hitRight = Physics2D.Raycast(transform.position, Vector2.right, range, layer);
@@ -42,6 +49,7 @@ public class Bomb : MonoBehaviour
         {
             Debug.Log("Hit a breakable right");
             DestroyTile(hitRight, Vector2.down);
+            UpdateTile(hitRight.collider.transform.position);
             DrawRays(hitRight);
 
         }
@@ -72,6 +80,11 @@ public class Bomb : MonoBehaviour
         {
             Explode();
         }
+    }
+
+    public void UpdateTile(Vector3 position)
+    {
+        WorldTileGrid.instance.ChangeToFloor(position);
     }
 
     private void DestroyTile(RaycastHit2D hit, Vector2 dir)

@@ -1,48 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
-public class WorldTile : MonoBehaviour
+public class WorldTile
 {
     public enum TileState { Floor, Wall, Breakable }
 
-    public TileState state;
+    public TileState state { get; set; }
+
+    public Vector3Int LocalPlace { get; set; }
+
+    public Vector3 WorldLocation { get; set; }
+
+    public TileBase TileBase { get; set; }
+
+    public Tilemap TilemapMember { get; set; }
 
     public bool dangerTile = false;
 
-    public int tileCost = 1;
+    public int baseCost;
 
-    private void Start()
-    {
-        name = "WorldTile [" + transform.position.x + ", " + transform.position.y + "]";
-        tag = "Tile";
-        GetTileState();
-    }
+    public int Fcost;
 
-    private void GetTileState()
-    {
-        LayerMask breakLayer = LayerMask.GetMask("Breakables");
-        RaycastHit2D hitB = Physics2D.Raycast(transform.position, Vector2.up, 0.001f, breakLayer);
-        if (hitB.collider != null)
-        {
-            if (hitB.collider.gameObject.tag == "Breakables") state = TileState.Breakable;
-            tileCost = 3;
-            return;
-        }
-        else
-        {
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.up, 0.001f);
-            if (hit.collider != null)
-            {
-                // Will hit player. Fix later
-                if (hit.collider.gameObject.tag == "Floor")
-                {
-                    state = TileState.Floor; tileCost = 1; return;
-                }
-                if (hit.collider.gameObject.tag == "Breakables") { state = TileState.Breakable; tileCost = 3; return; }
-
-                if (hit.collider.gameObject.tag == "Wall") { state = TileState.Wall; tileCost = 90; return; }
-            }
-        }
-    }
+    public int Hcost;
 }

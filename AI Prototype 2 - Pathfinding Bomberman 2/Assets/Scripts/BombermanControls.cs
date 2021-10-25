@@ -6,7 +6,7 @@ using UnityEngine.Tilemaps;
 public class BombermanControls : MonoBehaviour
 {
     [SerializeField] private Animator animator;
-    [SerializeField] private float moveSpeed;
+    public float moveSpeed;
     [SerializeField] private int bombAmount = 1;
     [SerializeField] private float bombRange = 1;
 
@@ -17,9 +17,9 @@ public class BombermanControls : MonoBehaviour
 
     public Vector3 currentTile = Vector3.zero;
 
-    private int placedBombs = 0;
+    public int placedBombs = 0;
     private float bombTimer = 3f;
-    private Vector3 currentTileOffset = new Vector3(0.37f, 0.375f, 0);
+    private Vector3 currentTileOffset = new Vector3(0.5f, 0.5f, 0);
 
     private void Start()
     {
@@ -80,7 +80,7 @@ public class BombermanControls : MonoBehaviour
             Tilemap tilemap = hit.collider.gameObject.GetComponent<Tilemap>();
             Vector3Int cell = tilemap.WorldToCell(hit.point);
             currentTile = tilemap.CellToWorld(cell);
-            Debug.Log("Current tile: " + currentTile);
+            //Debug.Log("Current tile: " + currentTile);
         }
     }
 
