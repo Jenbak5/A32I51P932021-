@@ -52,7 +52,7 @@ public class EnemyAI : BombermanControls
         else { Debug.Log("Starting tile for: " + name + " is a " + CurrentWT.state); }
 
         // WorldTileGrid.tiles.TryGetValue(firstDestination, out destination);
-        GetRandomDestination();
+        SetRandomDestination();
     }
 
     public override void Update()
@@ -76,33 +76,34 @@ public class EnemyAI : BombermanControls
                     lowestWT = null;
 
                     Instantiate(debugCounter, CurrentWT.WorldLocation, Quaternion.identity).text = "C";
+                    // REMOVE current_cell from OPEN_LIST 
+                    // ADD current_cell to CLOSED_LIST
                     OpenList.Remove(CurrentWT);
                     ClosedList.Add(CurrentWT);
                 }
             }
 
 
-            // REMOVE current_cell from OPEN_LIST 
-            // ADD current_cell to CLOSED_LIST
 
             // IF current_cell is finish_cell
             if (CurrentWT.WorldLocation == destination.WorldLocation)
             {
                 Debug.Log("A* destination reached at " + destination.WorldLocation);
+
                 // Create the route to travel
                 TraceRoute(ClosedList);
 
                 OpenList.Clear();
                 ClosedList.Clear();
                 getNewPath = false;
+                // RETURN
                 return;
             }
-            // RETURN
+
 
             // FOR EACH adjacent_cell to current_cell
-            // IF adjacent_cell is unwalkable OR adjacent_cell is in CLOSED_LIST
             // SKIP to the next adjacent_cell       
-
+            // IF adjacent_cell is unwalkable OR adjacent_cell is in CLOSED_LIST
             for (int i = 0; i < 3; i++)
             {
                 if (i == 0) currentAdjWT = AdjacenctWT(Vector3.up);
@@ -131,28 +132,24 @@ public class EnemyAI : BombermanControls
                             }
                         }
                     }
+                    // IF new_path to adjacent_cell is shorter OR adjacent_cell is not in OPEN_LIST
+                    // IF adjacent_cell is not in OPEN_LIST
+                    // ADD adjacent_cell to OPEN_LIST
                     if (!wtIsInOpen && !wtIsInClosed)
                     {
+                        // SET F_COST of adjacent_cell
                         OpenList.Add(currentAdjWT); SetFCost(currentAdjWT);
                         continue;
                     }
                 }
                 if (currentAdjWT.state == WorldTile.TileState.Wall) { continue; }
-
-                // If tile is not a wall
-                // Check if it is in closedlist
-                // If not in closed list, check openlist
-                // If not in openlist, add it to there and continue to next wt
             }
 
             wtIsInClosed = false;
             wtIsInOpen = false;
 
             return;
-            // IF new_path to adjacent_cell is shorter OR adjacent_cell is not in OPEN_LIST
-            // SET F_COST of adjacent_cell
-            // IF adjacent_cell is not in OPEN_LIST
-            // ADD adjacent_cell to OPEN_LIST
+
         }
 
         while (moveRoute)
@@ -173,6 +170,7 @@ public class EnemyAI : BombermanControls
             }
             moveRoute = true;
         }
+        Debug.Log("Amount in ClosedList:" + ClosedList.Count);
     }
 
     IEnumerator MoveRoute()
@@ -193,7 +191,7 @@ public class EnemyAI : BombermanControls
                 getNewPath = true;
 
                 Debug.Log("The AI has reached current destination, getting a new one...");
-                GetRandomDestination();
+                SetRandomDestination();
                 yield return null;
             }
 
@@ -230,7 +228,8 @@ public class EnemyAI : BombermanControls
                 // If tile is not adjacent, go back
                 else if (!nextTileIsAdj)
                 {
-                    Debug.LogError("Tile is not ADJ");
+                    //Debug.LogError("Tile is not ADJ");
+                    Debug.LogError("Distance between:" + CheckDistance(transform.position, nextTileInRoute.WorldLocation));
 
                     //if ((tilesTraveled - 1) > -1)
                     //{
@@ -289,7 +288,10 @@ public class EnemyAI : BombermanControls
             moveMarkerPlaced = false;
             lerpProgress = 0;
             nextTileIsAdj = false;
-            tilesTraveled++;
+            if (tilesTraveled + 1 < Route.Count)
+            {
+                tilesTraveled++;
+            }
         }
     }
 
@@ -299,7 +301,6 @@ public class EnemyAI : BombermanControls
         // G cost = walkable distance from starting cell to ending cell
         // F cost = Sum of G and H
 
-        //int H = Mathf.RoundToInt(CheckDistance(wt.WorldLocation, destination.WorldLocation));
         int H;
         if (wt.WorldLocation == destination.WorldLocation)
         {
@@ -337,7 +338,7 @@ public class EnemyAI : BombermanControls
         return Vector2.Distance(pos1, pos2);
     }
 
-    private void GetRandomDestination()
+    private void SetRandomDestination()
     {
         // Max X = 5
         // Min X = -7
